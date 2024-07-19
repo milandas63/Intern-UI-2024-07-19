@@ -1,0 +1,51 @@
+Course start date: 19-07-2024
+GitHub Repo: https://github.com/milandas63/Intern-UI-2024-07-19
+
+#A1B2C3E5D4#
+
+Participants:
+MILAN DAS                       7978168568    milandas63@gmail.com             milandas63
+1.	Sushree Swagatika Behera	7848867660	  sushreebehera78@gmail.com
+2.  Suchismita Behera           7735910140    arohibehera90@gmail.com
+3.  Suchismita Swain            7077315744    suchismitaswain20211@gmail.com
+4.  Ananya Dey                  8908325046    2001ananys@gmail.com
+
++----------------------+
+|  Friday, 19-07-2024  |    Day-01
++----------------------+
+    =   What is a computer language?
+        A computer language is a set of instruction to the computer.
+        The computer language is in form of notation.
+
+    =   What are features of a computer programming language?
+        1.  The program is executed by sequence of line number
+        2.  The execution may branch to another line
+        3.  It jumps
+        4.  Loop/Iterate across one or more lines repeatedly
+        5.  Ability to solve equations
+
+        3 x 3 - 3 / 3 + 3
+        =   9 - 1 + 3
+        =   9 + 2
+        =   11
+
+    =   There are 3 types of computer languages:
+        1.  Passive language
+            A computer language that is used for presentation purpose
+            only. It doesn't adhere to the features of a computer
+            programming languge.
+            Example: HTML - Hyper Text Markup Language,
+                     SGML - Standard Generalized Markup Language
+
+        2.  Active language
+            Are used for solving mission critical algorithmic problems.
+
+
+        3.  Dynamic language
+
+    =   8 bit (ASCII) can generate 2^8 = 256 combinations
+        ASCII = American Standard Code for Information Interchange
+        16 bit (UNICODE) can generate 2^16 = 35536 combinations
+
+    =   ASSIGNMENT:
+        Create a CMD Help file for your personal use.
