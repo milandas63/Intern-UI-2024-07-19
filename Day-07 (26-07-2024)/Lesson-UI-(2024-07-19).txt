@@ -1,0 +1,223 @@
+Course start date: 19-07-2024
+GitHub Repo: https://github.com/milandas63/Intern-UI-2024-07-19
+
+#A1B2C3E5D4#
+
+Participants:
+MILAN DAS                    7978168568  milandas63@gmail.com            milandas63
+1. Sushree Swagatika Behera  7848867660  sushreebehera78@gmail.com       Sushree-1234-hub
+2. Suchismita Behera         7735910140  arohibehera90@gmail.com         Arohi2003
+3. Suchismita Swain          7077315744  suchismitaswain20211@gmail.com  Suchismita2002-cyber
+4. Ananya Dey                8908325046  2001ananys@gmail.com            2001Ananya
+
++----------------------+
+|  Friday, 19-07-2024  |    Day-01
++----------------------+
+    =   What is a computer language?
+        A computer language is a set of instruction to the computer.
+        The computer language is in form of notation.
+
+    =   What are features of a computer programming language?
+        1.  The program is executed by sequence of line number
+        2.  The execution may branch to another line
+        3.  It jumps
+        4.  Loop/Iterate across one or more lines repeatedly
+        5.  Ability to solve equations
+
+        3 x 3 - 3 / 3 + 3
+        =   9 - 1 + 3
+        =   9 + 2
+        =   11
+
+    =   There are 3 types of computer languages:
+        1.  Passive language
+            A computer language that is used for presentation purpose
+            only. It doesn't adhere to the features of a computer
+            programming languge.
+            Example: HTML - Hyper Text Markup Language,
+                     SGML - Standard Generalized Markup Language
+
+        2.  Active language
+            Are used for solving mission critical algorithmic problems.
+            The program resides in the local machine and runs using the
+            resources of the residing machine.
+
+        3.  Dynamic language
+
+    =   8 bit (ASCII) can generate 2^8 = 256 combinations
+        ASCII = American Standard Code for Information Interchange
+        16 bit (UNICODE) can generate 2^16 = 35536 combinations
+
+    =   ASSIGNMENT:
+        Create a CMD Help file for your personal use.
+
++------------------------+
+|  Saturday, 20-07-2024  |    Day-02
++------------------------+
+    =   Class taken by Adit Jena
+
++----------------------+
+|  Monday, 22-07-2024  |    Day-03
++----------------------+
+    =   ELEMENTS:
+    =   What are elements in HTML?
+        Elements are also called Tag.
+        The HTML elements are reserve words embedded with angle brackets <> 
+
+    =   The principal element is <html>...</html>
+    =   There are 2 types of elements:
+        1. Self-terminated element
+            <br>, <hr>, <img>, etc.
+        2. Terminator required element
+            <html>..</html>, <head>..</head>, <body>..</body>, etc.
+    =   Elements are nested within themselves:
+        <html>
+            <head>
+                <title></title>
+            </head>
+            <body>
+            </body>
+        </html>
+
+    =   ATTRIBUTES:
+    =   Each of the elements have a set of attributes. Attributes fintune the
+        behaviour of the element.
+    =   There are 3 types of attributes:
+        1.  Standard attributes
+            These attributes are create exclusively for the element. These
+            attributes are normally not seen in other elements.
+        2.  Common attributes
+            A set of attributes that is common for all elements. The standard
+            attributes are applicable to all elements.
+            ID, CLASS, STYLE, TITLE, LANG, DIR, etc.
+        3.  Event attributes
+            These attributes are only applicable to responsive elements.
+                ONCLICK, when the mouse button is clicked on an element;
+                ONDBLCLICK, when the mouse button is double-clicked on an element;
+                ONMOUSEDOWN, when the mouse button is pressed over an element;
+                ONMOUSEUP, when the mouse button is released over an element;
+                ONMOUSEOVER, when the mouse is moved onto an element;
+                ONMOUSEMOVE, when the mouse is moved while over an element;
+                ONMOUSEOUT, when the mouse is moved away from an element;
+                ONKEYPRESS, when a key is pressed and released over an element;
+                ONKEYDOWN, when a key is pressed down over an element;
+                ONKEYUP, when a key is released over an element.
+
++-----------------------+
+|  Tuesday, 23-07-2024  |    Day-04
++-----------------------+
+    =   Elements in the name OL, LI, HR
+    =   The Anchor element <A>...</A>
+        The anchor element links text or images to another location in
+        the same page or another page/website altogether.
+
+    =   ASSIGNMENT:
+        >   Complete the Project Report of Nilachal Ispat Nigam Ltd.
+
++-------------------------+
+|  Wednesday, 24-07-2024  |    Day-05
++-------------------------+
+    =   How to link to another page/website altogether using the <a>...</a>
+        >   Anchor has an attribute named href="" which takes to any link
+            across the web. The anchor element is presented by <a> tag.
+        >   The <a> element wraps an image or a text to create a link.
+
+    =   The TABLE element provides facilities to display text or images in
+        tabular format, i.e. rows and columns. The TABLE contains a set of
+        inner element wrapped with table to perform.
+        <table>
+            <caption></caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+
+    =   What is iframe?
+        An element that provides a window within the page. The window can
+        display another page on it.
+
+        
++------------------------+
+|  Thursday, 25-07-2024  |    Day-06
++------------------------+
+    =   Write a program using HTML and Javascript to develop a simple calculator?
+        +----------------------------------+
+        |                                  |
+        +----------------------------------+
+        |  CE  |  AC  |  M   |  M+  |  /   |
+        |------+------+------+------+------|
+        |      |      |      |  %   |  *   |
+        |------+------+------+------+------|
+        |  7   |   8  |   9  |      |  -   |
+        |------+------+------+------+------|
+        |  4   |   5  |   6  |      |      |
+        |------+------+------+------|  +   |
+        |  1   |   2  |   3  |      |      |
+        |------+-------------+------+------|
+        |   .  |      0      |      =      |
+        +------+-------------+-------------+
+
+    =   ASSIGNMENT-1:
+        +-------+-------------------------------+-----------------------------------------------------------------------------------------------------------+
+        |       |                               |                                           POPULATION                                                      |
+        |       |                               |-----------------------------------------------------+-----------------------------------------------------|
+        |       |                               |                           URBAN                     |                           RURAL                     |
+        |       |                               |--------------------------+--------------------------+--------------------------+--------------------------|
+        |       |                               |           MALE           |           FEMALE         |          MALE            |           FEMALE         |
+        |       |                               |-----+------+-------+-----+-----+------+-------+-----+-----+------+-------+-----+-----+------+-------+-----|
+        |  SLNO | NAME OF THE DISTRICT          | <5  | 6-15 | 16-25 | >25 | <5  | 6-15 | 16-25 | >25 | <5  | 6-15 | 16-25 | >25 | <5  | 6-15 | 16-25 | >25 |
+        |-------+-------------------------------+-----+------+-------+-----+-----+------+-------+-----+-----+------+-------+-----+-----+------+-------+-----|
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+
+    =   ASSIGNMENT-2:
+        Two or more rows may be merged. Similarly, two or more columns may also be merged.
+        +----+--------------+----------+---------------------------------------+---------+
+        |    |              |          |                  POPULATION           |         |
+        |    |              |          |-------------------+-------------------+         |
+        |    |              |          |       URBAN       |      RURAL        |         |
+        |    |              |          |---------+---------+---------+---------+         |
+        |    |              |          |   GOVT  |   PVT   |   GOVT  |   PVT   |         |
+        |    |              |          |----+----+----+----+----+----+----+----+         |
+        | SL | DISTRICT     | STATE    |  M |  F |  M |  F |  M |  F |  M |  F |  TOTAL  |
+        +----+--------------+----------+----+----+----+----+----+----+----+----+---------+
+          1   BALASORE       ODISHA      245  211  245  211  245  211  245  211      1001
+          2   CUTTACK        ODISHA      245  211  245  211  245  211  245  211      1001
+
+
++----------------------+
+|  Friday, 26-07-2024  |    Day-07
++----------------------+
+    =   Assignment work done. Complete practical class.
