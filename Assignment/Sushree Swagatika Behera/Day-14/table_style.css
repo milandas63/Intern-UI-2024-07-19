@@ -1,0 +1,48 @@
+tr.a{
+    font-style:italic;
+    background-color:rgb(206, 141, 20);
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+tr.b{
+    font-style:italic;
+    background-color:green;
+    font-family:Arial, Helvetica, sans-serif;
+    color:burlywood;
+}
+tr.c{
+    font-style:italic;
+    background-color:blue;
+    font-family:Arial, Helvetica, sans-serif;
+    color:chocolate;
+}
+tr.d{
+    font-style:italic;
+    background-color:orange;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+tr.e{
+    font-style:italic;
+    background-color:green;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(192, 25, 33);
+}
+tr.f{
+    font-style:italic;
+    background-color:rgb(126, 208, 19);
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(148, 47, 8);
+}
+tr.g{
+    font-style:italic;
+    background-color:rgb(9, 101, 158);
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+tr.h{
+    font-style:italic;
+    background-color:rgb(9, 197, 21);
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(186, 9, 163);
+}
