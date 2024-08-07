@@ -1,0 +1,48 @@
+tr.A{
+    font-style:italic;
+    background-color:lavender;
+    font-family:Arial, Helvetica, sans-serif;
+    color:darkorchid;
+}
+tr.B{
+    font-style:italic;
+    background-color:lightcyan;
+    font-family:Arial, Helvetica, sans-serif;
+    color:blue;
+}
+tr.C{
+    font-style:italic;
+    background-color:lightblue;
+    font-family:Arial, Helvetica, sans-serif;
+    color:teal;
+}
+tr.D{
+    font-style:italic;
+    background-color:lightgoldenrodyellow;
+    font-family:Arial, Helvetica, sans-serif;
+    color:lightsalmon;
+}
+tr.E{
+    font-style:italic;
+    background-color:lightcoral;
+    font-family:Arial, Helvetica, sans-serif;
+    color:red;
+}
+tr.F{
+    font-style:italic;
+    background-color:lightskyblue;
+    font-family:Arial, Helvetica, sans-serif;
+    color:blue;
+}
+tr.G{
+    font-style:italic;
+    background-color:lightpink;
+    font-family:Arial, Helvetica, sans-serif;
+    color:magenta;
+}
+tr.H{
+    font-style:italic;
+    background-color:lightseagreen;
+    font-family:Arial, Helvetica, sans-serif;
+    color:green;
+}
