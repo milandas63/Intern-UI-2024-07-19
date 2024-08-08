@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>JavaScript Pyramid</title>
+    </head>
+    <body>
+        <script>
+            var space = 40;
+            var star = 1;
+            document.writeln("<body>");
+            document.writeln("<tt>");
+               
+            for(var i=1;i<=9;i++){
+                for (var j=0;j<space;j++)
+                    document.write("&nbsp;");
+                for(var j=0;j<star;j++)
+                    document.write("<label style='color:red;'>*</label>");
+                document.writeln("<br>");
+                if (i<9){
+                    spaces=spaces-1;
+                    stars=stars+2;
+                } else {
+                    spaces=spaces+1;
+                    stars=stars-2;
+                }
+            }
+            document.writeln("</tt>");
+            document.writeln("</body>");
+        </script>
+    </body>
+</html>
