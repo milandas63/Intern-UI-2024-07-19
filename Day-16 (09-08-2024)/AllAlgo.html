@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>All Algorithmic Programs</title>
+        <script>
+            function hello() {
+                alert("Hello World!");
+            }
+            function pyramid() {
+                var space = 40;
+                var star = 1;
+                document.writeln("<body>");
+                document.writeln("<tt>");
+                for(var i=1; i<=9; i++) {
+                    for(var j=0; j<space; j++) document.write("&nbsp;");
+                    for(var j=0; j<star; j++)  document.write("<label style='color:red;'>*</label>");
+                    document.writeln("<br>");
+                    space--; star+=2;
+                }
+                document.writeln("</tt>");
+                document.writeln("</body>");
+            }
+            function diamond() {
+                var space = 40;
+                var star = 1;
+                document.writeln("<body>");
+                document.writeln("<tt>");
+                
+                for(var i=0; i<19; i++){
+                    for(var j=0; j<space; j++) document.write("&nbsp;");
+                    for(var j=0; j<star; j++)  document.write("<label style='color:red;'>*</label>");
+                    document.writeln("<br>");
+                    if (i<9){
+                        space=space-1;
+                        star=star+2;
+                    } else {
+                        space=space+1;
+                        star=star-2;
+                    }
+                }
+                document.writeln("</tt>");
+                document.writeln("</body>");
+            }
+        </script>
+    </head>
+    <body>
+        <ol>
+            <li><button onclick="javascript:hello();">Hello World!</button></li>
+            <li><button onclick="javascript:pyramid()">Pyramid of astericks</button></li>
+            <li><button onclick="javascript:diamond()">Diamond of astericks</button></li>
+        </ol>
+    </body>
+</html>
