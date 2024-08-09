@@ -40,6 +40,20 @@
                 document.writeln("</tt>");
                 document.writeln("</body>");
             }
+            function palindrome() {
+                var space = 40;
+                document.writeln("<body>");
+                document.writeln("<tt>");
+                for(var i=1; i<=9; i++) {
+                    for(var j=0; j<space; j++) document.write("&nbsp;");
+                    for(var j=1; j<=i; j++)  document.write("<label style='color:red;'>"+j+"</label>");
+                    for(var j=i-1; j>=1; j--)  document.write("<label style='color:red;'>"+j+"</label>");
+                    document.writeln("<br>");
+                    space--;
+                }
+                document.writeln("</tt>");
+                document.writeln("</body>");
+            }
         </script>
     </head>
     <body>
@@ -47,6 +61,7 @@
             <li><button onclick="javascript:hello();">Hello World!</button></li>
             <li><button onclick="javascript:pyramid()">Pyramid of astericks</button></li>
             <li><button onclick="javascript:diamond()">Diamond of astericks</button></li>
+            <li><button onclick="javascript:palindrome()">Triangle of palindrome numbers</button></li>
         </ol>
     </body>
 </html>
