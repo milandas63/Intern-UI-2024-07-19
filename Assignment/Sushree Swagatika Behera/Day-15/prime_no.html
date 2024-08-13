@@ -1,0 +1,55 @@
+
+<html>
+    <head>
+        <title>Prime Number Generator</title>
+        <script>
+            function execute() {
+                let from = document.getElementById("start").value;
+                let to = document.getElementById("end").value;
+                let yn = true;
+                let count = 0;
+                document.writeln("<body>");
+                document.writeln("<table border='1' cellpadding='6'>");
+                document.writeln("<tr>");
+                for(i=from; i<=to; i++) {
+                    yn = true;
+                    for(j=2; j<i; j++) {
+                        if(i%j==0) {
+                            yn = false;
+                            break;
+                        }
+                    }
+                    if(yn) {
+                        document.writeln("<td>");
+                        document.writeln(i);
+                        document.writeln("</td>");
+                        count = count+1;
+                        if(count>=15) {
+                            count = 0;
+                            document.writeln("</tr><tr>");
+                        }
+                    }
+                }
+                document.writeln("</tr>");
+                document.writeln("</table>");
+                document.writeln("</body>");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Prime Number Generator</h1>
+        <hr><br>
+        <table>
+            <tr>
+                <td><label for="">Start Number: </label></td>
+                <td><input type="text" id="start"></td>
+            </tr>
+            <tr>
+                <td><label for="">End Number: </label></td>
+                <td><input type="text" id="end"></td>
+            </tr>
+        </table>
+        <br><br>
+        <input type="button" onclick="execute();" value=" Generate ">
+    </body>
+</html>
