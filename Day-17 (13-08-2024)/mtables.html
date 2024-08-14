@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Multiplication Tables Generator</title>
+        <script>
+            function compute() {
+                let start = parseInt(document.getElementById("start").value);
+                let end = parseInt(document.getElementById("end").value);
+                document.writeln("<body>");
+                document.writeln("<table border='1'>");
+                document.writeln("<tr>");
+                for(i=start; i<=end; i++) {
+                    document.writeln("<td>");
+                    document.writeln("<table>");
+                    for(j=1; j<=10; j++) {
+                        document.writeln("<tr>");
+                        document.writeln("<td align='right'>"+i+"</td>");
+                        document.writeln("<td align='center'>x</td>");
+                        document.writeln("<td align='right'>"+j+"</td>");
+                        document.writeln("<td align='center'>=</td>");
+                        document.writeln("<td align='right'>"+(i*j)+"</td>");
+                        document.writeln("</tr>");
+                    }
+                    document.writeln("</table>");
+                    document.writeln("</td>");
+                }
+
+                document.writeln("</tr>");
+                document.writeln("</table>");
+                document.writeln("</body>");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Multiplication Tables Generator</h1>
+        <hr><br>
+        <table>
+            <tr>
+                <td><label for="">Start Table: </label></td>
+                <td><input type="text" id="start"></td>
+            </tr>
+            <tr>
+                <td><label for="">End Table: </label></td>
+                <td><input type="text" id="end"></td>
+            </tr>
+        </table>
+        <br><br>
+        <input type="button" onclick="compute();" value=" Compute ">
+    </body>
+</html>
