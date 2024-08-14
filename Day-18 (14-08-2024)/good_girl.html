@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Good Girl Program</title>
+        <script>
+            function contratulate() {
+                let name = document.getElementById("name").value;
+                let plabel = document.getElementById("good");
+                if(name.toLowerCase()=="suchismita swain") {
+                    plabel.innerHTML = "Bad Girl";
+                } else {
+                    plabel.innerHTML = "Good Girl";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <label for="2">Enter your name</label><br>
+        <input type="text" id="name"><br>
+        <label for="" id="good"></label>
+        <br><br>
+        <button onclick="contratulate();">Click</button>
+    </body>
+</html>
