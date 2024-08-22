@@ -1,0 +1,405 @@
+Course start date: 19-07-2024
+GitHub Repo: https://github.com/milandas63/Intern-UI-2024-07-19
+
+#A1B2C3E5D4#
+
+Participants:
+MILAN DAS                    7978168568  milandas63@gmail.com            milandas63
+1. Sushree Swagatika Behera  7848867660  sushreebehera78@gmail.com       Sushree-1234-hub
+2. Suchismita Behera         7735910140  arohibehera90@gmail.com         Arohi2003
+3. Suchismita Swain          7077315744  suchismitaswain20211@gmail.com  Suchismita2002-cyber
+4. Ananya Dey                8908325046  2001ananys@gmail.com            2001Ananya
+
++----------------------+
+|  Friday, 19-07-2024  |    Day-01
++----------------------+
+    =   What is a computer language?
+        A computer language is a set of instruction to the computer.
+        The computer language is in form of notation.
+
+    =   What are features of a computer programming language?
+        1.  The program is executed by sequence of line number
+        2.  The execution may branch to another line
+        3.  It jumps
+        4.  Loop/Iterate across one or more lines repeatedly
+        5.  Ability to solve equations
+
+        3 x 3 - 3 / 3 + 3
+        =   9 - 1 + 3
+        =   9 + 2
+        =   11
+
+    =   There are 3 types of computer languages:
+        1.  Passive language
+            A computer language that is used for presentation purpose
+            only. It doesn't adhere to the features of a computer
+            programming languge.
+            Example: HTML - Hyper Text Markup Language,
+                     SGML - Standard Generalized Markup Language
+
+        2.  Active language
+            Are used for solving mission critical algorithmic problems.
+            The program resides in the local machine and runs using the
+            resources of the residing machine.
+
+        3.  Dynamic language
+
+    =   8 bit (ASCII) can generate 2^8 = 256 combinations
+        ASCII = American Standard Code for Information Interchange
+        16 bit (UNICODE) can generate 2^16 = 35536 combinations
+
+    =   ASSIGNMENT:
+        Create a CMD Help file for your personal use.
+
++------------------------+
+|  Saturday, 20-07-2024  |    Day-02
++------------------------+
+    =   Class taken by Adit Jena
+
++----------------------+
+|  Monday, 22-07-2024  |    Day-03
++----------------------+
+    =   ELEMENTS:
+    =   What are elements in HTML?
+        Elements are also called Tag.
+        The HTML elements are reserve words embedded with angle brackets <> 
+
+    =   The principal element is <html>...</html>
+    =   There are 2 types of elements:
+        1. Self-terminated element
+            <br>, <hr>, <img>, etc.
+        2. Terminator required element
+            <html>..</html>, <head>..</head>, <body>..</body>, etc.
+    =   Elements are nested within themselves:
+        <html>
+            <head>
+                <title></title>
+            </head>
+            <body>
+            </body>
+        </html>
+
+    =   ATTRIBUTES:
+    =   Each of the elements have a set of attributes. Attributes fintune the
+        behaviour of the element.
+    =   There are 3 types of attributes:
+        1.  Standard attributes
+            These attributes are create exclusively for the element. These
+            attributes are normally not seen in other elements.
+        2.  Common attributes
+            A set of attributes that is common for all elements. The standard
+            attributes are applicable to all elements.
+            ID, CLASS, STYLE, TITLE, LANG, DIR, etc.
+        3.  Event attributes
+            These attributes are only applicable to responsive elements.
+                ONCLICK, when the mouse button is clicked on an element;
+                ONDBLCLICK, when the mouse button is double-clicked on an element;
+                ONMOUSEDOWN, when the mouse button is pressed over an element;
+                ONMOUSEUP, when the mouse button is released over an element;
+                ONMOUSEOVER, when the mouse is moved onto an element;
+                ONMOUSEMOVE, when the mouse is moved while over an element;
+                ONMOUSEOUT, when the mouse is moved away from an element;
+                ONKEYPRESS, when a key is pressed and released over an element;
+                ONKEYDOWN, when a key is pressed down over an element;
+                ONKEYUP, when a key is released over an element.
+
++-----------------------+
+|  Tuesday, 23-07-2024  |    Day-04
++-----------------------+
+    =   Elements in the name OL, LI, HR
+    =   The Anchor element <A>...</A>
+        The anchor element links text or images to another location in
+        the same page or another page/website altogether.
+
+    =   ASSIGNMENT:
+        >   Complete the Project Report of Nilachal Ispat Nigam Ltd.
+
++-------------------------+
+|  Wednesday, 24-07-2024  |    Day-05
++-------------------------+
+    =   How to link to another page/website altogether using the <a>...</a>
+        >   Anchor has an attribute named href="" which takes to any link
+            across the web. The anchor element is presented by <a> tag.
+        >   The <a> element wraps an image or a text to create a link.
+
+    =   The TABLE element provides facilities to display text or images in
+        tabular format, i.e. rows and columns. The TABLE contains a set of
+        inner element wrapped with table to perform.
+        <table>
+            <caption></caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+
+    =   What is iframe?
+        An element that provides a window within the page. The window can
+        display another page on it.
+
+        
++------------------------+
+|  Thursday, 25-07-2024  |    Day-06
++------------------------+
+    =   Write a program using HTML and Javascript to develop a simple calculator?
+        +----------------------------------+
+        |                                  |
+        +----------------------------------+
+        |  CE  |  AC  |  M   |  M+  |  /   |
+        |------+------+------+------+------|
+        |      |      |      |  %   |  *   |
+        |------+------+------+------+------|
+        |  7   |   8  |   9  |      |  -   |
+        |------+------+------+------+------|
+        |  4   |   5  |   6  |      |      |
+        |------+------+------+------|  +   |
+        |  1   |   2  |   3  |      |      |
+        |------+-------------+------+------|
+        |   .  |      0      |      =      |
+        +------+-------------+-------------+
+
+    =   ASSIGNMENT-1:
+        +-------+-------------------------------+-----------------------------------------------------------------------------------------------------------+
+        |       |                               |                                           POPULATION                                                      |
+        |       |                               |-----------------------------------------------------+-----------------------------------------------------|
+        |       |                               |                           URBAN                     |                           RURAL                     |
+        |       |                               |--------------------------+--------------------------+--------------------------+--------------------------|
+        |       |                               |           MALE           |           FEMALE         |          MALE            |           FEMALE         |
+        |       |                               |-----+------+-------+-----+-----+------+-------+-----+-----+------+-------+-----+-----+------+-------+-----|
+        |  SLNO | NAME OF THE DISTRICT          | <5  | 6-15 | 16-25 | >25 | <5  | 6-15 | 16-25 | >25 | <5  | 6-15 | 16-25 | >25 | <5  | 6-15 | 16-25 | >25 |
+        |-------+-------------------------------+-----+------+-------+-----+-----+------+-------+-----+-----+------+-------+-----+-----+------+-------+-----|
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+        |       |                               |     |      |       |     |     |      |       |     |     |      |       |     |     |      |       |     |
+
+    =   ASSIGNMENT-2:
+        Two or more rows may be merged. Similarly, two or more columns may also be merged.
+        +----+--------------+----------+---------------------------------------+---------+
+        |    |              |          |                  POPULATION           |         |
+        |    |              |          |-------------------+-------------------+         |
+        |    |              |          |       URBAN       |      RURAL        |         |
+        |    |              |          |---------+---------+---------+---------+         |
+        |    |              |          |   GOVT  |   PVT   |   GOVT  |   PVT   |         |
+        |    |              |          |----+----+----+----+----+----+----+----+         |
+        | SL | DISTRICT     | STATE    |  M |  F |  M |  F |  M |  F |  M |  F |  TOTAL  |
+        +----+--------------+----------+----+----+----+----+----+----+----+----+---------+
+          1   BALASORE       ODISHA      245  211  245  211  245  211  245  211      1001
+          2   CUTTACK        ODISHA      245  211  245  211  245  211  245  211      1001
+
+
++----------------------+
+|  Friday, 26-07-2024  |    Day-07
++----------------------+
+    =   Assignment work done. Complete practical class.
+
+    =   ASSIGNMENT:
+        Complete the previous day assignment.
+
+
++----------------------+
+|  Monday, 29-07-2024  |    Day-08
++----------------------+
+    =   Send your resume to:
+        milandas63@gmail.com
+        milan.das@iigvarsity.com
+
+    =   Learn about images:
+        >   Images may be displayed in the background of the body.
+            <body background="image.jpg" />
+
+        >   Images may be linked with anchor
+        >   Single Image may be mapped to different locations
+
++------------------------+
+|  Thursday, 01-08-2024  |    Day-11
++------------------------+
+    =   ASSIGNMENT
+        Print all multiplication tables from 2 to 10? Five tables
+        are supposed to be arranged horizontally and subsequently
+        five more in the next row horizontally and so on.
+
+        Example: 2 to 10
+
+         2 x  1 =   2   3 x  1 =   3   4 x  1 =   4   5 x  1 =   5   6 x  1 =   6
+         2 x  2 =   4   3 x  2 =   6   4 x  2 =   8   5 x  2 =  10   6 x  2 =  12
+         2 x  3 =   6   3 x  3 =   9   4 x  3 =  12   5 x  3 =  15   6 x  3 =  18
+         2 x  4 =   8   3 x  4 =  12   4 x  4 =  16   5 x  4 =  20   6 x  4 =  24
+         2 x  5 =  10   3 x  5 =  15   4 x  5 =  20   5 x  5 =  25   6 x  5 =  30
+         2 x  6 =  12   3 x  6 =  18   4 x  6 =  24   5 x  6 =  30   6 x  6 =  36
+         2 x  7 =  14   3 x  7 =  21   4 x  7 =  28   5 x  7 =  35   6 x  7 =  42
+         2 x  8 =  16   3 x  8 =  24   4 x  8 =  32   5 x  8 =  40   6 x  8 =  48
+         2 x  9 =  18   3 x  9 =  27   4 x  9 =  36   5 x  9 =  45   6 x  9 =  54
+         2 x 10 =  20   3 x 10 =  30   4 x 10 =  40   5 x 10 =  50   6 x 10 =  60
+
+         7 x  1 =   7   8 x  1 =   8   9 x  1 =   9  10 x  1 =  10
+         7 x  2 =  14   8 x  2 =  16   9 x  2 =  18  10 x  2 =  20
+         7 x  3 =  21   8 x  3 =  24   9 x  3 =  27  10 x  3 =  30
+         7 x  4 =  28   8 x  4 =  32   9 x  4 =  36  10 x  4 =  40
+         7 x  5 =  35   8 x  5 =  40   9 x  5 =  45  10 x  5 =  50
+         7 x  6 =  42   8 x  6 =  48   9 x  6 =  54  10 x  6 =  60
+         7 x  7 =  49   8 x  7 =  56   9 x  7 =  63  10 x  7 =  70
+         7 x  8 =  56   8 x  8 =  64   9 x  8 =  72  10 x  8 =  80
+         7 x  9 =  63   8 x  9 =  72   9 x  9 =  81  10 x  9 =  90
+         7 x 10 =  70   8 x 10 =  80   9 x 10 =  90  10 x 10 = 100
+
++----------------------+
+|  Friday, 02-08-2024  |    Day-12
++----------------------+
+    =   HTML Forms
+        Create a HTML form to take the following data from the user:
+        EMPLOYEE INFORMATION SYSTEM
+            1.  employ_id
+            2.  employ_name
+            3.  father_name
+            4.  gender
+            5.  date_of_birth
+            6.  email_id
+            7.  mobile_no
+            8.  location
+
+                     ID: ||||||||||||
+            Employ Name: ||||||||||||||||||||||||||
+          Father's Name: ||||||||||||||||||||||||||
+                 Gender: x Male   x Female
+          Date of Birth: dd-mm-yyyy
+               Email id: ||||||||||||||||||||||||||
+              Mobile no: ||||||||||||||||||||
+
++----------------------+
+|  Monday, 05-08-2024  |    Day-12
++----------------------+
+    =   CSS stands for Cascading Style Sheet
+    =   CSS is used for formatting the HTML page and styling the elements.
+    =   CSS is implemented with a pair of property:value. Each element
+        may contain a set of property:value.
+    =   There are 3 types of CSS:
+        1.  Inline CSS
+            When the styling is provided in the STYLE attribute of the element
+            <h1 style="property:value;property:value;">Hello World</h1>
+        2.  Internal CSS
+            When the styling is provided in the STYLE element. The STYLE element
+            is used within the <HEAD> element. STYLE element has less preference
+            then the STYLE attribute or in other words, inline has higher 
+            preference then internal.
+            <style>
+                h1 {
+                    background-color:yellow;
+                    color:red;
+                }
+            </style>
+        3.  External CSS
+
++------------------------+
+|  Thursday, 08-08-2024  |    Day-15
++------------------------+
+    =   Bootstrap
+        <link 
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+         crossorigin="anonymous">
+
+    =   JavaScript
+        JavaScript programs are written within HTML script. The Javascript
+        is codded within the <script>...</script> element.
+
+    =   ASSIGNMENT
+        Code in Javascript, all questions in no-11 in the Questions.txt
+
+
++----------------------+
+|  Friday, 09-08-2024  |    Day-16
++----------------------+
+    =   Browser	                    Name of Javascript Engine
+        Google Chrome	            V8
+        Edge (Internet Explorer)	Chakra
+        Mozilla Firefox	            Spider Monkey
+        Safari 	                    Javascript Core Webkit
+
+    =   ASSIGNMENT:
+        Code in Javascript, all questions in no-11 in the Questions.txt
+
+
++-----------------------+
+|  Tuesday, 13-08-2024  |    Day-17
++-----------------------+
+    =   Write a program to print all prime numbers between 2 given numbers?
+
+    =   Write a program to print all multiplication tables between 2 given 
+        numbers?
+
+    =   ASSIGNMENT:
+        Read the book JS_HANDBOOK.pdf (56 pages)
+
+    =   PROJECT
+        Create a Calculator with all buttons functional.
+
++-------------------------+
+|  Wednesday, 14-08-2024  |    Day-18
++-------------------------+
+    =   Write a program to take a name from the user.
+        If the username is "Suchismita Swain", print "Bad Girl" below the name.
+        Any other name, print "Good Girl".
+
++----------------------+
+|  Friday, 14-08-2024  |    Day-19
++----------------------+
+    =   Project work begins
+        Simple Calculator
+        +---------------------------+
+        |                         0 |
+        +---------------------------+
+        |  CE  |  AC  |   ^  |   /  |
+        |------+------+------+------|
+        |  M+  |   M  |   %  |   *  |
+        |------+------+------+------|
+        |   7  |   8  |   9  |   -  |
+        |------+------+------+------|
+        |   4  |   5  |   6  |      |
+        |------+------+------|   +  |
+        |   1  |   2  |   3  |      |
+        |------+------+------+------|
+        |   .  |   0  |      =      |
+        +------+------+-------------+
+
+    =   ASSIGNMENT:
+        Implement horizontal reverse in the reverse_table.html.
+
+
++------------------------+
+|  Thursday, 22-08-2024  |    Day-20
++------------------------+
+    =   Write a program to list the color names in a list box and change
+        the background of the screen on selecting any color from the list.
+
+    =   150 JavaScript solved questions with answer
