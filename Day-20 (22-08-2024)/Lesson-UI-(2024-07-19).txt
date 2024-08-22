@@ -403,3 +403,18 @@ MILAN DAS                    7978168568  milandas63@gmail.com            milanda
         the background of the screen on selecting any color from the list.
 
     =   150 JavaScript solved questions with answer
+
+    =   What is DOM?
+        DOM is the abbrebiation for Document Object Model.
+        DOM represents the tree structure of the HTML presentation.
+
+        HTML
+        +- head
+        |  +- title
+        |  +- meta
+        |  +- script
+        +- body
+        |  +- h1
+        |  +- table
+        |  |  +- tr
+        |  |  |  +- td
